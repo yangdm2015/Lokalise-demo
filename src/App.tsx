@@ -13,6 +13,10 @@ function App() {
             id="app.header"
             defaultMessage="Edit the files and save to reload"
           />
+          <FormattedMessage
+            id="app.message"
+            defaultMessage="This is a message!"
+          />
         </p>
         <a
           className="App-link"
