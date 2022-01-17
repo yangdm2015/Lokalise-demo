@@ -1,1 +1,15 @@
-{}
+{
+    "app.channel.plug": "Ce tutoriel vous est présenté par Lokalise",
+    "app.content": "Apprendre react",
+    "app.message": "C'est un message !",
+    "app.header": "Éditer se ficher et sauvegarder pour recharger",
+    "key_with_placeholder": "Bonjour {{name}}",
+    "key_with_plurals": {
+        "one": "Vous avez %d nouveau message",
+        "other": "Vous avez %d nouveaux messages"
+    },
+    "main.view.more": "Voir les messages",
+    "signup_button": "Enregistrer vous maintenant",
+    "validation.required": "Oops ! Ce champ est requis.",
+    "welcome_header": "Bienvenue sur Lokalise !"
+}
