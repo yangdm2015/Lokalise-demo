@@ -3,13 +3,16 @@ import ReactDOM from "react-dom"
 import "./index.css"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
-import French from "./lang/fr.json"
-import Arabic from "./lang/ar.json"
-import English from "./lang/en.json"
+// import French from "./lang/fr.json"
+// import Arabic from "./lang/ar.json"
+// import English from "./lang/en.json"
+// import English from "./lang/en.json"
 import { IntlProvider } from "react-intl"
+const English = require('./lang/en.json')
+const French = require('./lang/fr.json')
 
 const locale = navigator.language
-let lang
+let lang:Record<string, string> =English
 if (locale === "en") {
   lang = English
 }
@@ -17,9 +20,12 @@ else {
   if (locale === "fr") {
     lang = French
   }
-  else {
-    lang = Arabic
-  }
+  // else {
+  // lang = English
+  // }
+}
+lang={
+  "a":"b"
 }
 
 ReactDOM.render(
