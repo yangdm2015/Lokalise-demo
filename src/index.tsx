@@ -24,9 +24,7 @@ else {
   // lang = English
   // }
 }
-lang={
-  "a":"b"
-}
+
 
 ReactDOM.render(
   <IntlProvider locale ={locale} messages={lang}>
