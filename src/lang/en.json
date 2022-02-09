@@ -1,15 +1,9 @@
 {
-    "app.channel.plug": "Tutorial brought to you by Lokalise",
-    "app.content": "Learn React",
-    "app.message": "This is a message!",
-    "app.header": "Edit the files and save to reload",
-    "key_with_placeholder": "Hello {{name}}",
-    "key_with_plurals": {
-        "one": "You have %d new message",
-        "other": "You have %d new messages"
-    },
-    "main.view.more": "View messages",
-    "signup_button": "Sign up now",
-    "validation.required": "Oops! This field is required.",
-    "welcome_header": "Welcome to Lokalise!"
-}
+    "message.simple": "A simple message.",
+    "message.argument": "Hi, {name}! 👋",
+    "message.plural": "{count, plural, one {# item} other {# items}}",
+    "message.select": "{gender, select, male {Mr} female {Mrs} other {User}}",
+    "message.text-format": "Hi, <b>John</b>!",
+    "message.number-format": "Formatted number: {num, number, ::K}",
+    "message.currency-format": "Formatted currency: {amount, number, ::currency/USD}"
+  }
